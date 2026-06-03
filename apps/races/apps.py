@@ -2,4 +2,5 @@ from django.apps import AppConfig
 
 
 class RacesConfig(AppConfig):
-    name = 'races'
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'apps.races'

@@ -7,8 +7,8 @@ class Video(models.Model):
     VIDEO_TYPE_CHOICES = [
         ("QUALIFYING_PREDICTIONS", "Qualifying Predictions"),
         ("QUALIFYING_RESULTS", "Qualifying Results"),
-        ("OTHER_VIDEOS", "Other Videos")
-        ("SHORTS", "Race Review"),
+        ("OTHER_VIDEOS", "Other Videos"),
+        ("SHORTS", "Shorts"),
     ]
 
     title = models.CharField(

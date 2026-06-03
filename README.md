@@ -13,6 +13,8 @@ Tracks YouTube video performance for Formula 1 race weekends.
 9) Verify working of django using manage.py runserver
 10) Register app in backend/settings.py, this tells django that the app exists
 11) Now go to github and create the repository
-12) In terminal use git remote add origin https://github.com/upenchandra144/f1-content-tracker.git, this helps to connect the folder files to this github repository
-13) Rename the branch to main git branch -M main
-14) Push using git push -u origin main
+12) Also use git init because code is made locally, this turns regular directory in git repository
+13) In terminal use git remote add origin https://github.com/upenchandra144/f1-content-tracker.git, this helps to connect the folder files to this github repository
+14) Rename the branch to main git branch -M main
+15) Push using git push -u origin main
+16) Now when any changes save the local file, then git add ., then git commit -m and git push origin

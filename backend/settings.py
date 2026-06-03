@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'videos',
 ]
 
 MIDDLEWARE = [
@@ -48,6 +47,13 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # Third Party Apps
+    'rest_framework',
+
+    # Project Apps
+    'apps.users.apps.UsersConfig',
+    'apps.races.apps.RacesConfig',
+    'apps.videos.apps.VideosConfig',
 ]
 
 ROOT_URLCONF = 'backend.urls'
